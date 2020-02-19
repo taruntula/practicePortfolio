@@ -14,7 +14,7 @@ File Description:Main css file of the template
 4.HOME
 5.ABOUT US
 6.SERVICES
-7.CTA 
+7.CTA
 8.TESTIMONIAL
 9.PORTFOLIO
 10.RECENT BLOG
@@ -105,11 +105,11 @@ button {
 }
 
 .text_custom {
-    color: #FE6883;
+    color: #ab0a27;
 }
 
 .bg_cover_custom {
-    background-color: #FE6883;
+    background-color: #ab0a27;
 }
 
 .btn_rounded_border {
@@ -133,8 +133,8 @@ button {
 }
 
 .btn_custom {
-    border: 1px solid #e65f78;
-    background-color: #e65f78;
+    border: 1px solid #ab0a27;
+    background-color: #ab0a27;
 }
 
 .btn_custom:hover,
@@ -221,7 +221,7 @@ button {
 }
 
 .custom-nav .social_menu li:hover a {
-    color: #FE6883;
+    color: #bf0c2c;
 }
 
 .custom-nav .social_menu .list-inline-item:not(:last-child) {
@@ -271,7 +271,7 @@ button {
 .custom-nav .navbar-nav li.active a,
 .custom-nav .navbar-nav li a:hover,
 .custom-nav .navbar-nav li a:active {
-    color: #FE6883 !important;
+    color: #d81034 !important;
 }
 
 .navbar-toggle {
@@ -316,7 +316,7 @@ button {
 ==================*/
 
 .bg_home_personal_img {
-    background-image: url(../images/home_one.jpg);
+    background-image: url(../images/water-back.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -391,9 +391,9 @@ button {
 
 .services_box .service_icon i {
     font-size: 34px;
-    background: rgba(254, 104, 131, 0.17);
+    background: #ab0a270d;
     height: 60px;
-    color: #FE6883;
+    color: #d2193a;
     width: 60px;
     display: inline-block;
     text-align: center;
@@ -408,7 +408,7 @@ button {
 .edu_content{
     border-radius: 7px;
     border: 1px solid #e7e7e7;
-    padding: 30px;  
+    padding: 30px;
 }
 
 .edu_detail h5{
@@ -418,7 +418,7 @@ button {
     text-transform: capitalize;
 }
 
-    
+
 
 
 /*================
@@ -465,8 +465,8 @@ button {
     width: 12px;
     height: 7px;
     margin: 20px 5px;
-    border: 1px solid #FE6883;
-    background-color: #FE6883;
+    border: 1px solid #ab0a27;
+    background-color: #ab0a27;
     opacity: 0.4;
 }
 
@@ -505,7 +505,7 @@ button {
 
 .work_menu a.active,
 .work_menu a:hover {
-    color: #FE6883 !important;
+    /* color: #FE6883 !important; */
     font-weight: 700;
 }
 
@@ -590,7 +590,7 @@ button {
     padding: 0 10px;
     text-align: center;
     border-radius: 30px;
-    background: #FE6883;
+    background: #ab0a27;
 }
 
 
@@ -611,7 +611,7 @@ button {
 }
 
 .custom_form_body .form-control:focus {
-    border-color: #FE6883;
+    border-color: #ab0a27;
     box-shadow: none;
     outline: none;
 }
@@ -656,7 +656,7 @@ button {
         color: rgba(0, 0, 0, 0.55) !important;
     }
     .custom-nav .navbar-nav li.active a {
-        color: #FE6883 !important;
+        color: #ab0a27 !important;
     }
     .custom-nav>.container {
         width: 90%;
