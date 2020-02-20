@@ -505,7 +505,7 @@ button {
 
 .work_menu a.active,
 .work_menu a:hover {
-    /* color: #FE6883 !important; */
+    color: #ab0a27 !important;
     font-weight: 700;
 }
 
@@ -555,7 +555,7 @@ button {
 }
 
 .work_item .work_detail {
-    height: auto;
+    height: 100%;
     position: absolute;
     background-color: #fbfbfb;
     opacity: 0;
