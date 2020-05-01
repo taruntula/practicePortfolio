@@ -70,11 +70,20 @@
                 itemsDesktop: [1199, 1],
                 itemsDesktopSmall: [979, 1]
             });
+        //toggle hamburger menu to close when click on navlink or outside of hamburger
+            $(document).click(function (event) {
+                var clickover = $(event.target);
+                var open = $("#navbarCollapse").hasClass("show");
+                if (open === true && !clickover.hasClass("navbar-toggler")) {
+                    $("button.navbar-toggler").click();
+                }
+            });
         });
+
 
     }
 
-   
+
     function initBacktoTop() {
         $(window).on('scroll', function() {
             if ($(this).scrollTop() > 100) {
